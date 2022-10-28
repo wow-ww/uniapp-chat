@@ -1,0 +1,65 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},{
+			"path" : "pages/room/room",
+			"style" :                                                                                    
+			{
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false
+			}
+    },{
+			"path" : "pages/future/future",
+			"style" :                                                                                    
+			{
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false
+			}    
+    }
+        ,{
+            "path" : "pages/login/login",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		// "navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		// "titleNView": false
+		"navigationStyle": "custom"
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#FF5D5B",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/index/index",
+			"iconPath": "static/image/index/chat.png",
+			"selectedIconPath": "static/image/index/chat.png",
+			"text": "聊天"
+		}, {
+			"pagePath": "pages/room/room",
+			"iconPath": "static/image/index/room.png",
+			"selectedIconPath": "static/image/index/room.png",
+			"text": "房间"
+		}, {
+			"pagePath": "pages/future/future",
+			"iconPath": "static/image/index/future.png",
+			"selectedIconPath": "static/image/index/future.png",
+			"text": "未来"
+		}
+		]
+	},
+	"uniIdRouter": {}
+}
