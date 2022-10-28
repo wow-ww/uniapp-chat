@@ -114,7 +114,7 @@
 	}
 </script>
 
-<style scoped>
+<style>
 .flex-r {
 	display: flex;
 	flex-direction: row;
